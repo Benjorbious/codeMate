@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>codeMate - Your Coding Assistant</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github-dark.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+</head>
+<body style = "background-color: #f0f0f0;">
+        <div class="container">
+            <div class="cardContainer">
+                <div class="card row flex-row" style =>
+                    <img class="col-lg-4 card-img-end img-fluid p-0" src="img/logo.png" style="height: 40vh; width: auto;">
+                    <div class="col-lg-8 card-body">
+                        <center><h1 class="card-title mt-4">codeMate - Your Coding Assistant</h1></center>
+                        <p class="card-text mt-4">With the growing number of computer science majors, the competition has never been tougher. That is where codeMate comes in, an AI-powered chatbot and coding companion designed to help students learn faster, code smarter, and build with confidence. Whether it is tackling tough algorithms, understanding tricky syntax, or getting instant explanations, codeMate is here to make the learning process smoother and more engaging. It bridges the gap between classroom learning and real-world coding, giving users a reliable and always-available resource. <br>
+                        <br>
+                        Down below, you will find the interactive codeMate demo you can try out for yourself. Explore its capabilities, ask coding questions, and see firsthand how it can support your journey as a developer.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <div class = "secondPage">
+    <div class = "Container">
+        <center><h1 style = "color: white;">codeMate Demo</h1></center>
+        <div id="chatbox" class="chatbox"></div>
+        <div class = "inputContainer">
+        <textarea cols = 10 id="userInput" placeholder="Ask a coding question..."></textarea>
+        <button class = "send" onclick="sendMessage()">Send</button>
+        </div>
+    </div>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>
